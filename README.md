@@ -1,10 +1,10 @@
 # GUI-Project
 
-Team:
-Mohamed Saeed
-Mohamed Khalid
-Amr Nabil
-Mohamed Zayan
+Team: <br />
+Mohamed Saeed <br />
+Mohamed Khalid <br />
+Amr Nabil <br />
+Mohamed Zayan <br />
 
-Supervisor:
+Supervisor: <br />
 Ahmed Alfy
