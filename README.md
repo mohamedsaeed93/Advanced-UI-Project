@@ -1,4 +1,4 @@
-# Advancde-UI-Project
+# Advanced-UI-Project
 
 Team: <br />
 Mohamed Saeed <br />
