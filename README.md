@@ -1,4 +1,4 @@
-# GUI-Project
+# Advancde-UI-Project
 
 Team: <br />
 Mohamed Saeed <br />
