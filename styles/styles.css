@@ -57,7 +57,6 @@
 .fa-bar-chart {
   color: #FFF;
   background-color: #F7941D;
-
 }
 
 .default-slider img {
@@ -157,6 +156,47 @@
   margin-top: 5px;
   font-family: 'Open Sans';
   font-size: 14px;
+}
+
+.offer a {
+  display: inline-block;
+  padding: 0px 20px;
+  margin-right: 20px;
+  margin-bottom: 80px;
+  line-height: 2;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  background-color: #29C2E1;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: 15px;
+  min-width: 100px;
+}
+
+.offer,
+.actions {
+  text-align: center;
+  color: #59686C;
+}
+
+.offer h4,
+.offer span {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.offer p {
+  text-transform: uppercase;
+}
+
+.offer span {
+  color: #F7941D;
+}
+
+.offer .actions .contact {
+  background-color: #F7941D;
 }
 
 
