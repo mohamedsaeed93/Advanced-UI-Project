@@ -288,7 +288,7 @@
   text-transform: uppercase;
   color: #FFF;
   font-size: 15px;
-  min-width: 100px;
+  min-width: 150px;
 }
 
 .site-navigation .offer {
@@ -364,11 +364,17 @@ display: inline-block;
   width: 65%;
   margin: 0 auto;
 }
-.single-column p {
+.single-column p, .single-column a {
   display: inline;
   margin-top: 10px;
   width: 100%;
-  color:black;
+  color:#000;
+}
+
+.single-column a {
+  text-decoration: none;
+  color: #C1C1C1;
+  margin-top: 0;
 }
 .single-column img:nth-child(2){
   margin-left: 10px;
@@ -409,10 +415,11 @@ visibility: hidden;
 }
 .footer-content img{
   position: absolute;
-  left: 10%;
+  left: 12%;
   top: 15px;
+  width: 25px;
+  height: 25px;
 }
-
 
 /* latin-ext */
 
