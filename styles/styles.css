@@ -361,6 +361,10 @@ h2 {
   display: inline-block;
 }
 
+.team-wrapper .four-col div:nth-child(2) ul li a{
+  text-decoration: none;
+}
+
 .team-wrapper .container {
   padding-top: 50px;
 }
