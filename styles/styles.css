@@ -134,7 +134,6 @@
   left: 65px;
 }
 
-
 .default-slider {
   position: relative;
 }
@@ -292,9 +291,9 @@
 }
 
 .site-navigation .offer {
-    background-color: #000;
+  background-color: #000;
 }
- 
+
 .offer,
 .actions {
   text-align: center;
@@ -319,28 +318,32 @@
   background-color: #F7941D;
 }
 
-.user-navigation ul{
+.user-navigation ul {
   padding: 0;
   list-style: none;
   text-align: center;
   display: inline-block;
 }
-.user-navigation{
+
+.user-navigation {
   display: inline-block;
   margin-left: 20px;
   position: absolute;
   right: 5px;
 }
-.user-navigation li{
-display: inline-block;
+
+.user-navigation li {
+  display: inline-block;
   margin: 0 35px;
 }
-.footer-columns ul{
+
+.footer-columns ul {
   padding: 0;
   list-style: none;
   float: left;
 }
-.footer-columns li{
+
+.footer-columns li {
   padding: 0;
   list-style: none;
   display: inline-block;
@@ -349,26 +352,30 @@ display: inline-block;
   vertical-align: top;
 }
 
-.single-column li{
+.single-column li {
   display: block;
   margin-top: 10px;
   width: 100%;
-  color:#B8BEC2;
+  color: #B8BEC2;
   font-size: 60%;
 }
-.footer-columns h1{
+
+.footer-columns h1 {
   width: 24%;
 }
-.footer-columns{
+
+.footer-columns {
   margin-top: 50px;
   width: 65%;
   margin: 0 auto;
 }
-.single-column p, .single-column a {
+
+.single-column p,
+.single-column a {
   display: inline;
   margin-top: 10px;
   width: 100%;
-  color:#000;
+  color: #000;
 }
 
 .single-column a {
@@ -376,16 +383,20 @@ display: inline-block;
   color: #C1C1C1;
   margin-top: 0;
 }
-.single-column img:nth-child(2){
+
+.single-column img:nth-child(2) {
   margin-left: 10px;
 }
-.single-column img:nth-child(3){
+
+.single-column img:nth-child(3) {
   margin-left: 10px;
 }
-.no-heading p{
-visibility: hidden;
+
+.no-heading p {
+  visibility: hidden;
 }
-.search a{
+
+.search a {
   display: inline-block;
   line-height: 2;
   text-align: center;
@@ -400,26 +411,30 @@ visibility: hidden;
   position: absolute;
   right: 0px;
   top: 0px;
-
 }
-.search input{
+
+.search input {
   height: 20px;
   width: 200px;
 }
-.search{
+
+.search {
   display: inline-block;
   position: relative;
 }
-.footer-content{
+
+.footer-content {
   position: relative;
 }
-.footer-content img{
+
+.footer-content img {
   position: absolute;
   left: 12%;
   top: 15px;
   width: 25px;
   height: 25px;
 }
+
 
 /* latin-ext */
 
