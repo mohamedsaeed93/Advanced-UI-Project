@@ -66,14 +66,13 @@
   clear: none;
 }
 
-.grid-layout-container .active  {
-    box-sizing: border-box;
-    border: 10px solid #585858;
- 
+.grid-layout-container .active {
+  box-sizing: border-box;
+  border: 10px solid #585858;
 }
 
 .active {
-     position: relative;
+  position: relative;
 }
 
 .active h3 {
@@ -81,8 +80,8 @@
   text-transform: uppercase;
   font-weight: normal;
   width: 100%;
-  text-align:center;
-  top:38%;
+  text-align: center;
+  top: 38%;
 }
 
 .fa-search {
