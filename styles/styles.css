@@ -25,6 +25,55 @@
 
 /***********************************************/
 
+.contact-us-header-wrapper {
+  background-color: #EAF0F2;
+  color: #A0A0A0;
+  text-transform: uppercase;
+}
+
+.contact-us-header {
+  padding: 0px 55px 50px 0px;
+  position: relative;
+}
+
+.contact-us-header i {
+  height: 100%;
+  padding: 4px 34px 0px 36px;
+}
+
+.info .fa-mobile {
+  font-size: 32px;
+}
+
+.info .fa-envelope {
+  font-size: 22px;
+}
+
+.info p,
+.info a {
+  display: inline-block;
+  color: #A0A0A0;
+}
+
+.header {
+  float: left;
+  font-weight: bold;
+  width: 45%;
+}
+
+.info {
+  float: right;
+  width: 47%
+}
+
+.divider {
+  position: absolute;
+  left: 70%;
+  bottom: 0%;
+  height: 100%;
+  border-left: 2px solid #E0E0E0;
+}
+
 .logo {
   float: left;
 }
@@ -59,7 +108,10 @@
 
 .nav-wrapper li:first-child {
   display: inline-block;
-  margin: 0 55px;
+}
+
+.nav-wrapper li:nth-child(2) {
+  margin-left: 175px;
 }
 
 .nav-wrapper .contact a {
