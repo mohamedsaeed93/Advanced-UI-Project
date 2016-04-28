@@ -14,13 +14,16 @@
   clear: both;
 }
 
+
 /*******************AMR*************************/
+
 .container {
   margin: 0 auto;
   max-width: 1000px;
-  margin-top: 50px;
 }
-/***********************************************/§
+
+
+/***********************************************/
 
 .logo {
   float: left;
@@ -164,10 +167,12 @@
   font-size: 12px;
 }
 
+
 /*******************AMR*************************/
+
 .fa {
   width: 60px;
-  height : 60px;
+  height: 60px;
 }
 
 .fa-icon {
@@ -180,14 +185,16 @@
 }
 
 .mobile-icon {
-  padding-left:20px;
+  padding-left: 20px;
   font-size: 35px;
-} 
+}
 
 .fa-colored {
   color: #FFF;
   background-color: #F7941D;
 }
+
+
 /***********************************************/
 
 .default-slider img {
@@ -232,14 +239,20 @@
 .description-subtitle {
   margin-top: 0;
 }
+
+
 /*******************AMR*************************/
+
 h2 {
   margin-bottom: 0;
 }
 
-h2, .description-subtitle {
+h2,
+.description-subtitle {
   text-transform: uppercase;
 }
+
+
 /***********************************************/
 
 .description-content {
@@ -456,7 +469,9 @@ h2, .description-subtitle {
   height: 25px;
 }
 
+
 /*******************AMR*************************/
+
 .features {
   position: relative;
   border-bottom: 1px solid #F0F0F0;
@@ -512,7 +527,7 @@ h2, .description-subtitle {
   float: left;
   width: 24%;
   height: 420px;
-  margin-right:12px;
+  margin-right: 12px;
   /*box-shadow: .2px .2px .05px .05px gray;*/
 }
 
@@ -553,7 +568,7 @@ h2, .description-subtitle {
   list-style: none;
 }
 
-.pricing .four-col ul li{
+.pricing .four-col ul li {
   font-size: 14px;
   margin-bottom: 15px;
 }
@@ -597,12 +612,14 @@ h2, .description-subtitle {
   height: 600px;
   /*padding-bottom: 0;*/
 }
+
+
 /* latin-ext */
 
 .team-wrapper .four-col div:nth-child(1) {
-  background-color: #686868 ;
+  background-color: #686868;
   height: 60%;
-  color : white;
+  color: white;
   text-align: center;
   padding-top: 50%;
 }
@@ -645,18 +662,21 @@ h2, .description-subtitle {
   padding-left: 0;
 }
 
-.team-wrapper .four-col div:nth-child(2) ul li{
+.team-wrapper .four-col div:nth-child(2) ul li {
   display: inline-block;
 }
 
-.team-wrapper .four-col div:nth-child(2) ul li a{
+.team-wrapper .four-col div:nth-child(2) ul li a {
   text-decoration: none;
 }
 
 .team-wrapper .container {
   padding-top: 50px;
 }
+
+
 /***********************************************/
+
 
 /* latin-ext */
 
