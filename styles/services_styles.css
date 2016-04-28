@@ -312,7 +312,7 @@
   right: 0%;
   top: 15px;
   width: 350px;
-  height: 150px;
+  height: 220px;
 }
 .offer a {
   display: inline-block;
@@ -492,4 +492,14 @@
   padding-right: 35px;
   padding-bottom: 40px; 
   vertical-align: baseline;
+}
+.footer-end{
+  color: #93a1a7;
+  font-family: "Karla",sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px;
 }
