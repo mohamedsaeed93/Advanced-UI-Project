@@ -1,0 +1,256 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-size: 12px;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/*******************AMR*************************/
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  /*margin-top: 50px;*/
+}
+/***********************************************/
+
+.fa-icon {
+  position: absolute;
+  padding: 15px;
+  font-size: 30px;
+}
+
+.fa-colored {
+  color: orange;
+}
+
+.top-bar-wrapper {
+  background-color: #D8E6EB;
+}
+
+.top-bar-wrapper p{
+	text-transform: uppercase;
+	color: #989898;
+}
+
+.top-bar-wrapper p:nth-child(1){
+	float: left;
+	width: 65%;
+}
+
+.addressing-wrapper {
+  float: right;
+}
+
+.addressing-wrapper div p {
+  margin-left: 15px;
+}
+
+.addressing-wrapper div {
+  float: left;
+  position: relative;
+}
+
+.addressing-wrapper div:nth-child(1) {
+	margin-right: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #C8C8C8;
+}
+
+.addressing-wrapper div:nth-child(2) p {
+  margin-left: 20px;
+}
+
+.addressing-wrapper .fa-icon {
+  margin:0;
+	font-size: 15px;
+  padding: 0;
+  left: 0;
+  bottom: 33%;
+  color: #989898;
+}
+
+.addressing-wrapper .fa-mobile {
+  font-size: 20px;
+  bottom: 26%;
+}
+
+/*.nav-wrapper {
+  height: 62px;
+}*/
+
+.nav-wrapper .container{
+  position: relative;
+  padding: 10px 0px;
+}
+
+.nav-wrapper h1 {
+  position: absolute;
+  left: -99999px;
+}
+
+.logo  {
+ 	width: 30px;
+ 	height: 30px;
+  float: left;
+}
+
+.site-navigation {
+  list-style: none;
+  display: inline-block;
+  float: right;
+  margin-top: 6px;
+}
+
+.site-navigation li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.site-navigation a {
+  text-decoration: none;
+}
+
+.site-navigation a,
+.site-navigation .dropbtn {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #B0B0B0;
+  text-decoration: none;
+}
+
+.site-navigation .active a {
+  color: black;
+}
+
+.site-navigation .fa-icon {
+  font-size: 12px;
+  padding: 0;
+  bottom: 5px;
+  right: 0;
+}
+
+.site-navigation .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.site-navigation .dropbtn {
+  background-color: #FFF;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.dropbtn p, .dropbtn div{
+  display: inline;
+}
+
+.site-navigation .dropdown-content {
+  display: none;
+  position: absolute;
+  top:0;
+  background-color: #f9f9f9;
+  min-width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.site-navigation .dropdown-content a {
+  color: #B0B0B0;
+  text-decoration: none;
+  line-height: 30px;
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid #F0F0F0;
+}
+
+.site-navigation a:hover {
+  color: #C1C1C1
+}
+
+.site-navigation .dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.site-navigation .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.site-navigation li:last-child {
+  margin-right: 0;
+}
+
+.nav-wrapper .contact  {
+  display: inline-block;
+  padding: 0px 20px;
+  line-height: 2;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  background-color: #29C2E1;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFF;
+  min-width: 100px;
+  margin-left: 15px;
+}
+
+.site-navigation li:last-child a:hover {
+  color: #FFF;
+}
+
+.top-image-wrapper {
+  background-color: gray;
+  color: white;
+  text-transform: uppercase;
+}
+
+.top-image-wrapper .container{
+  padding: 100px 0;
+}
+
+.top-image-wrapper .container div{
+  display: inline-block;
+  text-align: center;
+}
+
+.top-image-wrapper .container div:first-child {
+  width: 20%;
+  margin-left: 100px;
+  text-align: center; 
+}
+
+.top-image-wrapper .container div:first-child p {
+  font-size: 20px;
+}
+
+.top-image-wrapper .container div:first-child p:nth-child(1) {
+  margin-bottom: 6px;
+}
+
+.top-image-wrapper .container div:first-child p:nth-child(2) {
+  margin-top: 0;
+}
+
+.top-image-wrapper .container div:nth-child(2) {
+  margin-left: 50px;
+}
+
+.top-image-wrapper .container div:nth-child(2) h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.top-image-wrapper .container div:nth-child(2) p {
+  font-size: 12px;
+}
