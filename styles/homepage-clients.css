@@ -60,26 +60,35 @@
 	color: orange;
 }
 
-.carousel {
+.flexslider {
+	width: 500px;
     position: relative;
     overflow: hidden;
-    padding-left: 460px;
+    left: 550px;
     margin-top: -250px;
 }
 
-.carousel p {
-	border-radius: 50%;
+.slides li{
 	background-color: grey;
-	height: 100px;
+	width: 50px;
+	height: 130px;
+	border-radius: 50%;
 	text-align: center;
-	padding-top: 40px;
-	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
-.carousel div {
-    float: left;
-    margin-left: 40px;
+.flex-control-nav {
+	background-color: red;
 }
+
+.flexslider{
+	background-color: transparent;
+	border-width: 0px;
+}
+
+
 
 
 

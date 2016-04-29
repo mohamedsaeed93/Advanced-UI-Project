@@ -1,11 +1,9 @@
-$(document).ready(function () {
-    var slickOpts = {
-        dots: true,
-        infinite: true,
-        slidesToShow: 3,
-  		slidesToScroll: 1,
-        speed: 500,
-        autoplay: true
-    };    
-    	$('.carousel').slick(slickOpts);
-});
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "slide",
+    animationLoop: false,
+    itemWidth: 210,
+    itemMargin: 3,
+    controlNav: true
+  });
+})
