@@ -1,0 +1,350 @@
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.blog-page-title {
+background-color: grey;
+height: 180px;
+}
+.blog-page-title__description{
+text-align: center;
+float: right;
+margin-right: 500px;
+margin-top: 65px;
+font-size: 25px;
+color: white;
+text-transform: uppercase;
+font-weight: bold;
+font-family: sans-serif;
+}
+.blog-page-title__image{
+float: left;
+padding-top: 40px;
+padding-left: 300px;
+text-align: center;
+font-size: 25px;
+color: white;
+text-transform: uppercase;
+font-weight: bold;
+font-family: sans-serif;
+}
+.blog-page-title__description span{
+font-size: 10px;
+font-style: italic;
+}
+.blog-media{
+width: 40%;
+height: 600px;
+margin-left: 250px;
+}
+.blog-media__image{
+width: 100%;
+height: 400px;
+}
+.blog-media__image__image-data{
+width: 100%;
+height: 60%;
+background-color: grey;
+}
+.blog-media__image__image-data p, .blog-media__image__image-data span{
+text-align: center;
+padding-top: 18%;
+color: white;
+font-size: 25px;
+text-transform: uppercase;
+font-family: sans-serif;
+font-weight: bold;
+}
+.blog-media__image__heading{
+width: 100%;
+height: 40%;
+text-transform: uppercase;
+font-weight: bold;
+font-family: sans-serif;
+}
+.blog-media__image__heading p{
+margin-top: -15px;
+font-size: 12px;
+}
+.blog-media__image__heading h2{
+font-size: 18px;
+}
+.blog-media__image__heading span{
+color: orange;
+font-weight: normal;
+}
+.blog-media__image__heading__info p{
+font-weight: normal;
+text-transform: lowercase;
+font-size: 15px;
+}
+.blog-media__image__heading__read-more--button{
+margin-top: 10px;
+width:120px;
+height:30px;
+border-radius:100px;
+text-align:center;
+border-width: 0px;
+background-color: #33bbff;
+color: white;
+text-transform: uppercase;
+}
+.blog-media__hr {
+margin-top: 80px;
+height: 50px;
+}
+.blog-media__hr hr{
+border-color: #f2f2f2;
+border-width: 1px;
+border-width: thin;
+border-top: 10px;
+margin-top: 60px;
+margin-bottom: 60px;
+}
+.flex-direction-nav a {
+width: 50px;
+height: 50px;
+font-size: 0px;
+color: #fff;
+border-radius: 100%;
+}
+.habal {
+width: 100%;
+margin-top: -70px;
+}
+.flexslider {
+background: transparent;
+border: 4px solid transparent;
+}
+.blog-media__image__image-data__container{
+margin-left: 30px;
+padding-top: 20px;
+}
+.blog-media__image__image-data__container--play {
+background-color: #4d4d4d;
+width: 30px;
+height: 20px;
+text-align: center;
+font-size: 0px;
+border-width: 1px;
+border-style: none;
+background-image: url('https://cdn.vidyard.com/thumbnails/233987/qj0j4hSUd89vYtaN50Z1Xw_play_button.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: 700%;
+}
+.progress{
+width: 410px;
+float: right;
+margin-right: 44px;
+margin-top: 5px;
+}
+.glyphicons glyphicons-volume-up{
+clear: right;
+}
+.blog-media__audio{
+height: 50px;
+}
+.fa {
+float: right;
+margin-right: 24px;
+margin-top: -40px;
+height: 20px;
+color: black;
+font-size: 20px;
+}
+.blog-media__image__image-data__container-audio{
+padding-top: 0px;
+}
+
+.blog-pagination{
+	clear: both;
+	width: 300px;
+	height: 40px;
+	margin-top: 1300px;
+	margin-left: 240px;
+}
+.blog-pagination button, .aside-elemetns__tags button{
+	min-width: 30px;
+	height: 30px;
+	width: auto;
+	color: white;
+	text-decoration: none;
+	border-width: 0px;
+	border-style: thin;
+	border-color: #33bbff;
+	background-color: #33bbff;
+	margin-left: 0px;
+	margin-top: 7px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.blog-pagination button:hover{
+	background-color: orange;
+}
+.blog-pagination a {
+	margin-left: 10px;
+	text-decoration: none;
+}
+.top-bar-wrapper, .nav-wrapper{
+	font-size: 12px;
+}
+
+.site-navigation .active a {
+  color: black;
+}
+
+.top-bar-wrapper p:nth-child(1){
+  float: left;
+  width: 65%;
+  margin-top: 10px;
+}
+
+.addressing-wrapper{
+	margin-top: 10px;
+}
+
+.addressing-wrapper .fa-mobile{
+	top: -2px;
+}
+
+.addressing-wrapper .fa-envelope-o{
+	top: 1px;
+}
+
+.site-navigation .fa-icon {
+  font-size: 12px;
+  padding: 10px;
+  bottom: 7px;
+  left: 45px;
+}
+.aside-elements{
+height: 700px;
+width: 220px;
+float: right;
+margin-right: 240px;
+margin-top: -1960px;
+}
+.aside-elements__search {
+clear: right;
+}
+.aside-elements__search input{
+width: 100%;
+height: 40px;
+text-indent: 10px;
+border-style: solid;
+border-width: 1px;
+resize: none;
+}
+.aside-elements__search p {
+margin-top: -0px;
+color: grey;
+}
+.fa-search {
+position: relative;
+font-size: 15px;
+margin-right: 20px;
+padding-top: 12px;
+}
+.aside-elements__categories, .aside-elemetns__tags{
+width: 100%;
+height: 160px;
+margin-top: 30px;
+}
+.aside-elements__categories h2, .aside-elemetns__popular-posts h2{
+font-size: 16px;
+font-weight: bold;
+color: black;
+}
+.aside-elements__categories li {
+list-style: none;
+padding-bottom: 4px;
+}
+.aside-elements__categories ul{
+padding-left: 0px;
+}
+.aside-elements__categories a{
+text-transform: uppercase;
+text-decoration: none;
+color: grey;
+font-weight: bold;
+font-size: 12px;
+}
+.aside-elements__categories a:hover{
+color: orange;
+}
+.aside-elements__categories span{
+font-weight: normal;
+float: right;
+}
+.aside-elemetns__popular-posts {
+width: 100%;
+height: 400px;
+margin-top: 30px;
+}
+.aside-elemetns__popular-posts__images {
+height: 200px;
+margin-top: 20px;
+}
+.aside-elemetns__popular-posts__images__data {
+width: 60px;
+height: 60px;
+background-color: grey;
+font-size: 12px;
+text-align: center;
+color: white;
+font-weight: bold;
+text-transform: uppercase;
+margin-top: 10px;
+}
+.aside-elemetns__popular-posts__images__data p {
+padding-top: 14px;
+}
+.aside-elemetns__popular-posts__image__hr{
+border-width: 0px;
+margin-top: 20px;
+}
+.aside-elemetns__popular-posts__images__heading {
+height: 60px;
+width: 60%;
+float: right;
+margin-top: -50px;
+margin-right: 10px;
+}
+.aside-elemetns__popular-posts__images__heading p{
+font-weight: bold;
+font-size: 12px;
+text-transform: uppercase;
+}
+.aside-elemetns__popular-posts__images__heading span{
+float: left;
+margin-top: -10px;
+}
+.aside-elemetns__popular-posts__images__heading__number{
+color: orange;
+}
+.aside-elemetns__popular-posts__images__heading__comment{
+text-indent: 5px;
+color: black;
+}
+.aside-elemetns__tags{
+	width: 100%;
+	height: 100px;
+}
+
+.aside-elements__tags__buttons{
+	width: 100%;
+	margin-top: 0px;
+
+}
+
+.footer-hr {
+	width: 60%;
+	margin-top: 50px;
+	margin-left: 250px;
+}
+
+.search a{
+	text-decoration: none;
+}
