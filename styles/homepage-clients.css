@@ -41,7 +41,7 @@
 	position: absolute;
 	width: 500px;
 	left: 80px;
-	top: 190px;
+	top: 1210px;
 	border-right: thin solid grey;
 
 }
@@ -53,7 +53,7 @@
 	clear: left;
 	position: absolute;
 	left: 80px;
-	top: 360px;
+	top: 1370px;
 }
 
 .clients__quote__written-by span {
@@ -79,9 +79,6 @@
 	font-weight: bold;
 }
 
-.flex-control-nav {
-	background-color: red;
-}
 
 .flexslider{
 	background-color: transparent;
