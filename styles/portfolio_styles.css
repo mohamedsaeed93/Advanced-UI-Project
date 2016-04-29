@@ -1,0 +1,91 @@
+.title {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  z-index: 100;
+}
+
+.title h1,
+.title p {
+  text-transform: uppercase;
+  color: #FFF;
+  position: absolute;
+}
+
+.title h1 {
+  font-weight: bold;
+  font-size: 48px;
+  width: 100%;
+  top: 20%;
+}
+
+.title p {
+  font-weight: bold;
+  font-size: 16px;
+  width: 100%;
+  top: 45%;
+}
+
+.title img {
+  width: 100%;
+  height: 310px;
+}
+
+.grid-layout-container {
+  padding: 0.25em;
+  overflow: hidden;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.grid-layout-container li {
+  float: left;
+  list-style-type: none;
+  width: 46%;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+.grid-layout-container li:not(:nth-child(even)) {
+  margin-right: 4%;
+}
+
+.grid-layout-container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.grid-layout-container li:nth-child(2n+1) {
+  clear: left;
+}
+
+.grid-layout-container li:nth-child(3n+1) {
+  clear: none;
+}
+
+.grid-layout-container .active {
+  box-sizing: border-box;
+  border: 10px solid #585858;
+}
+
+.active {
+  position: relative;
+}
+
+.active h3 {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: normal;
+  width: 100%;
+  text-align: center;
+  top: 38%;
+}
+
+.fa-search {
+  position: absolute;
+  top: 55%;
+  left: 48%;
+}
