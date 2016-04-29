@@ -40,8 +40,8 @@
 .clients__quote__text{
 	position: absolute;
 	width: 500px;
-	left: 80px;
-	top: 1210px;
+	left: 140px;
+	top: 1300px;
 	border-right: thin solid grey;
 
 }
@@ -52,8 +52,8 @@
 .clients__quote__written-by {
 	clear: left;
 	position: absolute;
-	left: 80px;
-	top: 1370px;
+	left: 140px;
+	top: 1470px;
 }
 
 .clients__quote__written-by span {
